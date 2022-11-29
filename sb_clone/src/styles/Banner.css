@@ -8,8 +8,8 @@
 }
 
 .logo {
-margin-top: 13px;
-margin-left: 10px;
+margin-top: 10px;
+margin-left: 2vw;
 height: 5vw;
 max-height: 52px;
 min-height: 39px;
@@ -19,24 +19,63 @@ min-height: 39px;
   display: flex;
   flex-direction: row;
   margin-left: 30px;
-  min-width: 225px;
+  min-width: 258px;
   justify-content: space-between;
 }
 
-.Menu-Container, .Rewards-Container, .Gift-Container {
-  margin-top: 24px;
+.Menu-Container, .Rewards-Container, .Gift-Container, .Store-Container {
+  margin-top: 26px;
 }
 
-.Menu-Container:hover, .Rewards-Container:hover, .Gift-Container:hover {
+.Menu-Container:hover, .Rewards-Container:hover, .Gift-Container:hover, .Store-Container:hover {
   border-bottom: 6px solid #006341;
 }
 
 .Link {
   text-decoration: none;
   color:black;
+  font-weight: 700;
   transition: color .3s;
 }
 
-.Link:hover {
+.Link-Aux {
+  text-decoration: none;
+  color:black;
+  font-weight: 600;
+  transition: color .3s;
+}
+
+.Link-Aux:hover, .Link:hover {
   color: #006341;
+}
+
+.Aux-Container {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin-left: auto;
+  padding-left: 10vw;
+  justify-content: space-between;
+}
+
+.store-Container {
+  margin-left: 30px;
+}
+
+.SignIn_Container, .JoinNow_Container {
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media (max-width: 772px){
+  .Link-Container {
+    display: none;
+    width: 0%;
+  }
+
+  .Aux-Container {
+    display: none;
+    width: 0;
+  }
 }
