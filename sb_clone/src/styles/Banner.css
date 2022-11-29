@@ -65,7 +65,7 @@ min-height: 39px;
 .SignIn_Container, .JoinNow_Container {
   margin: auto;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 20px;
 }
 
 @media (max-width: 772px){
