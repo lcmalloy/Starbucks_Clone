@@ -1,6 +1,7 @@
 import '../styles/Banner.css'
 import SignInBtn from '../ui/Sign_In_Btn'
 import JoinNowBtn from '../ui/Join_Now_Btn';
+import DropDownBtn from '../ui/DropDownBtn'
 
 const Banner = () => {
   return (
@@ -38,6 +39,11 @@ const Banner = () => {
         </div>
         <div className="JoinNow_Container">
           <JoinNowBtn />
+        </div>
+      </div>
+      <div className="Drop_Down_Container">
+        <div className="Drop_dwn_btn">
+          <DropDownBtn />
         </div>
       </div>
     </div>

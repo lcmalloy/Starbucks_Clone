@@ -3,3 +3,32 @@
   height: 100%;
   background-color: rgb(255, 255, 255);
 }
+
+.Header {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(152 152 152 / 39%);
+}
+
+.Body {
+  margin: auto;
+  height: auto;
+  display: grid;
+  width: 100%;
+  height: 40vh;
+  grid-template-rows: repeat(4, 400px);
+  grid-row-gap: 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 772px){
+  .Body {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+}
