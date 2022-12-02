@@ -1,6 +1,6 @@
 # Starbucks_Clone
 
-Starbucks_Clone is a copy of the Christmas addition Starbucks home page.
+Starbucks_Clone is a copy of the Christmas edition Starbucks home page.
 
 ## Background
 
